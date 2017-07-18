@@ -1,0 +1,25 @@
+{
+  "name": "gig_economy",
+  "version": "1.0.0",
+  "description": "Mobile app for gig economy",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "set NODE_ENV=test&& nodemon --exec \"mocha --recursive -R min\""
+  },
+  "author": "P Ransfield",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "geojson": "^0.4.1",
+    "mocha": "^3.4.2",
+    "mongoose": "^4.11.1",
+    "supertest": "^3.0.0",
+    "twitter": "^1.7.1"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {}
+}
